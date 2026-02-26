@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cinnamon Projects</title>
+    <style>
+        body { font-family: sans-serif; background: #121212; color: white; text-align: center; }
+        .container { max-width: 800px; margin: auto; padding: 50px; }
+        .repo-card { 
+            background: #1e1e1e; border-radius: 10px; padding: 20px; 
+            margin: 10px 0; border: 1px solid #333; transition: 0.3s;
+        }
+        .repo-card:hover { border-color: #ffaa00; }
+        a { color: #ffaa00; text-decoration: none; font-weight: bold; }
+        #repo-list { margin-top: 30px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>kdduckss projects</h1>
+        <p>powered by Cinnamon & GitHub API</p>
+        
+        <div id="repo-list">
+            <p>fetching data from github...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
